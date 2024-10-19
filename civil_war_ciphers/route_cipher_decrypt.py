@@ -34,17 +34,18 @@ import sys
 #===============================================================
 # USER IMPUT:
 # the string to decrypted (typed of paste between triple-quotes):
-ciphertext = '''16 12 8 4 0 1 5 9 13 17 18 14 10 6 2 3 7 11 15 19
+ciphertext = '''THIS OFF DETAINED ASCERTAIN WAYLAND CORRESPONDENTS OF AT WHY 
+AND IF FILLS IT YOU GET THEY NEPTUNE THE TRIBUNE PLEASE ARE THEM CAN UP
 '''
 
 # number of columns in the transpostion matrix:
-COLS = 4
+COLS = 6
 
 # number of rows in the transpostion matrix:
-ROWS = 5
+ROWS = 4
 
 # key with spaces between numbers; negative to read UP columns (ex = -1 2 -3 4)
-key = ''' -1 2 -3 4'''
+key = ''' -1 2 -3 4 -5 6'''
 
 # END OF USER INPUT - DO NOT EDIT BELOW THIS LINE!
  #================================================================
