@@ -1,0 +1,15 @@
+Load a text file and strip it of whitespace
+Get user input on how many letters after punctuation to look ahead and examine
+Loop through number of letters from 1 to this lookahead value
+    Start an empty string to hold the translation
+    Start a counter
+    Start a ➊first-found marker and set to False
+    Loop through characters in the text
+        If character is punctuation
+            Counter = 0
+            First-found = True
+        Otherwise, if ➋first-found is True
+            Counter + 1
+        If counter = lookahead value
+            Add character to translation string
+    Display translation for this lookahead value
